@@ -1,0 +1,75 @@
+
+.header {
+  background-color: #f4f4f4; 
+  padding: 20px; 
+  text-align: center; 
+  border-bottom: 2px solid #ddd; 
+}
+
+.header-content {
+  max-width: 1200px; 
+  margin: 0 auto; 
+}
+
+.name {
+  font-size: 2rem; 
+  margin: 0; 
+}
+
+.contact-info {
+  margin: 10px 0; 
+  font-size: 1.2rem; 
+}
+
+.contact-info a {
+  color: #007bff; 
+  text-decoration: none; 
+}
+
+.contact-info a:hover {
+  text-decoration: underline; 
+}
+
+
+.App {
+  font-family: Arial, sans-serif; 
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  padding: 20px; 
+}
+
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; 
+}
+
+.project-card {
+  background-color: #fff; 
+  border: 1px solid #ddd; 
+  border-radius: 8px; 
+  padding: 20px; 
+  max-width: 300px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.card-image img {
+  width: 100%; 
+  border-radius: 4px; 
+}
+
+.card-details {
+  margin-top: 10px; 
+}
+
+.card-details a {
+  color: #007bff; 
+  text-decoration: none; 
+}
+
+.card-details a:hover {
+  text-decoration: underline; 
+}
